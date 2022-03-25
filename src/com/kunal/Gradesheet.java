@@ -6,8 +6,13 @@ public class Gradesheet {
     public static void main(String[] args) {
         Scanner scn=new Scanner(System.in);
 
+        System.out.println("Enter Name of college : ");
         String colName=scn.nextLine();
+
+        System.out.println("Enter your name : ");
         String student=scn.nextLine();
+
+        System.out.println("Enter your Roll No : ");
         int rollNo=scn.nextInt();
 
         int percent=0;
@@ -25,6 +30,8 @@ public class Gradesheet {
         System.out.println("Name of college : "+colName);
         System.out.println("Student name : "+student);
         System.out.println("Roll No : "+rollNo);
+
+        System.out.println("Percentage : "+percent);
 
         if(percent >= 90)
             System.out.println("Grade A");
