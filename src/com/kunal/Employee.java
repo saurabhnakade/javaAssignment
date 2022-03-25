@@ -4,18 +4,15 @@ public class Employee {
     private String fName;
     private String lName;
     private double mSalary;
-
     Employee(String fName, String lName, double salary){
         this.fName=fName;
         this.lName=lName;
         this.mSalary =salary;
     }
-
     void EmployeeTest(){
         System.out.println("Employee name is "+fName+" "+lName);
         System.out.println("Employee's monthly salary is "+mSalary);
     }
-
     String getFName(){
         return fName;
     }
