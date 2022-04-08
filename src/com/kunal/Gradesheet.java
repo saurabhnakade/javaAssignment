@@ -18,14 +18,12 @@ public class Gradesheet {
         int percent=0;
 
         int[] marks=new int[5];
+        System.out.println("Enter 5 subject marks : ");
         for(int i=0;i<5;i++){
             marks[i]=scn.nextInt();
             percent+=marks[i];
         }
-
         percent/=5;
-
-
 
         System.out.println("Name of college : "+colName);
         System.out.println("Student name : "+student);
